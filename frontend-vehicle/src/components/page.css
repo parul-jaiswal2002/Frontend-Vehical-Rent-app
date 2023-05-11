@@ -1,0 +1,45 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.container{
+    margin-top: 100px;
+   
+    width: 500px;
+    height: 600px;
+}
+.container label{
+   display: block;
+   margin-top: 30px;
+}
+#wheellabel{
+    display: inline-block;
+}
+.container input{
+    width: 95%;
+    height: 32px;
+ }
+.button{
+    margin-top: 30px;
+    color: black;
+    background-color: grey;
+    width: 95%;
+    padding: 6px 10px;
+    cursor: pointer;
+    font-size: 20px;
+}
+.error{
+    margin-top: 20px;
+    border: 1px solid red;
+    color: red;
+    background-color: rgb(230, 138, 138);
+    height: 28px;
+    width: 95%;
+    padding: 2px 6px;
+}
